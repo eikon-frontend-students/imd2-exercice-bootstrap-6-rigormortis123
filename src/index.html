@@ -13,39 +13,118 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-6">colonne A</div>
-        <div class="col-6">colonne B</div>
-      </div>
+    <!-- OFFSET -->
 
-      <div class="row">
-        <div class="col-12 col-sm-6 col-lg-4 offset-lg-2">colonne C</div>
-        <div class="col-12 col-sm-6 col-lg-4">colonne D</div>
-      </div>
-
-      <div class="row">
-        <div class="col-12 col-sm-6 col-lg-3">colonne E</div>
-        <div class="col-12 col-sm-6 col-lg-3">colonne F</div>
-        <div class="col-12 col-sm-6 col-lg-3">colonne G</div>
-        <div class="col-12 col-sm-6 col-lg-3">colonne H</div>
-      </div>
-
-      <div class="row">
-        <div class="col-12 col-sm-6 col-md-4 offset-md-2 offset-lg-1">
-          colonne I
+    <div class="section">
+      <h3>Offset</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">colonne A</div>
+          <div class="col-6">colonne B</div>
         </div>
-        <div class="col-12 col-sm-6 col-md-4 offset-lg-2">colonne J</div>
-      </div>
 
-      <div class="row">
-        <div class="col-6 col-lg-3 col-xl-2">colonne K</div>
-        <div class="col-6 col-lg-2 offset-lg-1 offset-xl-2">colonne L</div>
-        <div class="col-6 col-lg-2">colonne M</div>
-        <div class="col-6 col-lg-3 col-xl-2 offset-lg-1 offset-xl-2">
-          colonne N
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-4 offset-lg-2">colonne C</div>
+          <div class="col-12 col-sm-6 col-lg-4">colonne D</div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-3">colonne E</div>
+          <div class="col-12 col-sm-6 col-lg-3">colonne F</div>
+          <div class="col-12 col-sm-6 col-lg-3">colonne G</div>
+          <div class="col-12 col-sm-6 col-lg-3">colonne H</div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4 offset-md-2 offset-lg-1">
+            colonne I
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 offset-lg-2">colonne J</div>
+        </div>
+
+        <div class="row">
+          <div class="col-6 col-lg-3 col-xl-2">colonne K</div>
+          <div class="col-6 col-lg-2 offset-lg-1 offset-xl-2">colonne L</div>
+          <div class="col-6 col-lg-2">colonne M</div>
+          <div class="col-6 col-lg-3 col-xl-2 offset-lg-1 offset-xl-2">
+            colonne N
+          </div>
         </div>
       </div>
+    </div>
+
+    <!-- ORDER -->
+
+    <div class="section">
+      <h3>Order</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-7 col-md-8 order-sm-1">colonne A</div>
+          <div class="col-6 col-sm">colonne B</div>
+          <div class="col-6 col-sm order-sm-2">colonne C</div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-md-6">colonne D</div>
+          <div class="col-12 col-md-6">colonne E</div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-md-6 order-sm-1">colonne F</div>
+          <div class="col-12 col-md-6">colonne G</div>
+        </div>
+
+        <div class="row">
+          <div class="col-4">colonne H</div>
+          <div class="col-4">colonne I</div>
+          <div class="col-4">colonne J</div>
+        </div>
+
+        <div class="row">
+          <div class="col-3">colonne K</div>
+          <div class="col-3">colonne L</div>
+          <div class="col-3">colonne M</div>
+          <div class="col-3">colonne N</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BACKGROUND -->
+
+    <div class="section">
+      <h3>Background</h3>
+      <header class="page-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-6">colonne A</div>
+            <div class="col-12 col-sm-6">colonne B</div>
+          </div>
+        </div>
+      </header>
+
+      <main class="page-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6">colonne C</div>
+            <div class="col-12 col-md-6">colonne D</div>
+            <div class="col-12 col-md-6 col-xl-4">colonne E</div>
+            <div class="col-12 col-md-6 col-xl-8">colonne F</div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-lg-6">colonne G</div>
+            <div class="col-12 col-lg-6">colonne H</div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col">colonne I</div>
+          </div>
+        </div>
+      </footer>
     </div>
 
     <script src="js/main.js" type="module"></script>
